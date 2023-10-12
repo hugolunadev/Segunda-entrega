@@ -1,0 +1,194 @@
+*{padding: 0;
+  margin: 0;
+}
+
+body header nav{
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: right;
+    color: white;
+}
+
+body header div img{
+    width: 50px;
+    height: 50px;
+}
+    
+h1{
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+}
+    
+h3 {
+    font-family: 'Chakra Petch', sans-serif;
+    color: white;
+    }
+
+a { 
+    text-decoration: none;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+p{
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    width: 330px;
+    height: fit-content;
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+}
+
+iframe{
+    width: 300px;
+    height: 150px;
+}
+
+#back_index{
+    background-image: url(../img/carbon_fiber.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#back_pages{
+    background-image: url(../img/prisma.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1920px;
+    max-height: 1080px;
+    min-height: 1280px;
+    min-width: 768px;
+    background-color: rgba(240, 248, 255, 0.308);
+    z-index: 100;
+}
+
+.navlock{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px; /* Ajusta el relleno según tus preferencias */
+    z-index: 100; /* Ajusta la propiedad z-index según sea necesario */
+}
+
+.navi {
+    display: inline-block;
+}
+
+
+.banner {
+    position: relative;
+    font-size: 500%;
+}
+
+.contenedor{
+    position: relative;
+    min-height: 1024px ;
+    min-width: 768px ;
+    z-index: 50;
+} 
+
+.fraban {
+    position: absolute; 
+    top: 90px; 
+    left: 25px; 
+    padding: 10px; 
+    margin: 0; 
+    font-size: 150px;
+}
+
+.fakeli{
+    position: relative;
+    left: 50px;
+}
+
+.upto{
+    position: relative;
+    bottom: 100px;
+}
+
+.upfi{
+    position: relative;
+    bottom: 50px;
+}
+
+.nav{
+    position: relative;
+    bottom: 90px;
+    right: 50px;
+}
+
+.but{
+position: fixed;
+top: 25px;
+right: 250px;
+z-index: 100;
+}
+
+.padbu{
+    padding-right: 10px;
+}
+
+.fixed{
+    position: fixed;
+    z-index: 100; /* Ajusta la propiedad z-index según sea necesario */
+
+}
+
+.fixedtw{
+    position: fixed;
+    right: 0%;
+    top: 25px;
+    z-index: 100;
+    
+}
+
+.left{
+    position: relative;
+    left: 500px;
+}
+
+.leftfr{
+    position: relative;
+    left: 1500px;
+}
+
+.under{
+    position: relative;
+    top: 5px;
+}
+
+.leflog{
+    position: fixed;
+    left: 0px;
+    top: 0%;
+    z-index: 100;
+}
+
+.bacfo{
+    position: relative;
+    background-color: rgba(75, 108, 109, 0.479);
+    
+}
+
+@media (max-width: 768px){
+   .contenedor{
+    flex-direction: column;
+   }
+}
+
+    
+  
+@media (min-width: 769px) {
+    /* Estilos para dispositivos de escritorio */
+  }
